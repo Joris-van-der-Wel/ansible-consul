@@ -36,7 +36,7 @@ Here is a list of all the default variables for this role, which are also availa
 
 ```yml
 ---
-consul_version: 0.6.0
+consul_version: 1.1.0
 consul_archive: "consul_{{ consul_version }}_linux_amd64.zip"
 consul_download: "https://releases.hashicorp.com/consul/{{ consul_version }}/{{ consul_archive }}"
 consul_download_username: ""
@@ -125,7 +125,6 @@ consul_disable_remote_exec: true
 consul_port_dns: 8600
 consul_port_http: 8500
 consul_port_https: -1
-consul_port_rpc: 8400
 consul_port_serf_lan: 8301
 consul_port_serf_wan: 8302
 consul_port_server: 8300
