@@ -15,3 +15,5 @@
     enabled=yes
   when: consul_manage_service
 - { include: services.yml, when: consul_services is defined and consul_services|length > 0 }
+- meta: flush_handlers
+- include: post_verify.yml
