@@ -6,3 +6,4 @@
   retries: 6
   delay: 4
   changed_when: false
+  when: not ansible_check_mode
