@@ -1,4 +1,3 @@
 - src: geerlingguy.repo-epel
-- src: franklinkim.nginx
 - src: geerlingguy.nginx
 - src: joshualund.golang
